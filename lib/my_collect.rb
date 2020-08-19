@@ -12,4 +12,4 @@ def my_collect(collection)
   end 
 end 
 
-my_collect(collection) {|name| name.split(" ").first}
+# my_collect(collection) {|name| name.split(" ").first}
