@@ -2,8 +2,8 @@ def my_collect(collection)
   if block_given?
     i = 0 
     collection = []
-    while i < array.length 
-      collection << yield(array[i])
+    while i < collection.length 
+      collection << yield(collection[i])
       i += 1 
     end
     collection
@@ -12,4 +12,4 @@ def my_collect(collection)
   end 
 end 
 
-my_collect(array) {|name| name.split(" ").first}
+my_collect(collection) {|name| name.split(" ").first}
