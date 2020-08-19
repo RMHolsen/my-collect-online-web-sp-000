@@ -12,4 +12,4 @@ def my_collect(array)
   end 
 end 
 
-my_collect(array) {|name| name.split(" ").first 
+my_collect(array) {|name| name.split(" ").first}
